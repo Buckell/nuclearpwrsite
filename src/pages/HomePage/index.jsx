@@ -1,6 +1,8 @@
 import HomePageContainer from "./HomePageContainer.jsx";
 
 export default function HomePage() {
+    const navigate = useNavigate();
+
     return (
         <HomePageContainer>
             <main>
